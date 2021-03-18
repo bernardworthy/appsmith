@@ -8,7 +8,7 @@ import java.time.Instant;
 
 @Getter
 @Setter
-public class AuthenticationResponse {
+public class AuthenticationResponse implements AppsmithDomain {
     String token;
 
     String refreshToken;
